@@ -11,7 +11,7 @@
 <header>
     <h1>Meet Our Team</h1>
     <!-- Example team logo -->
-    <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
+    <img src="img/canva-logo.jpg" alt="Team Logo" class="team-logo">
 
     <!-- Navigation menu to switch between sections -->
     <nav>
@@ -33,7 +33,10 @@
         <h2>Priya Pokhrel</h2>
         <p>Team Member</p>
         <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio"></p>
+        <div id="bio2" class="bio">
+            <img class="profile-photo" src="img/priya.jpg" alt="Priya Pokhrel" class="profile-photo">
+            <p>Priya is a computer science and bioinformatics student.</p>
+        </div>
     </div>
     <div class="card">
         <h2>Mahitha Tatineni</h2>
@@ -52,8 +55,7 @@
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
     <h2>Our Mission Statement</h2>
-    <p>We strive to work together effectively and efficiently to create positive outcomes for our clients.
-    </p>
+    <p>We strive to work together effectively and efficiently to create positive outcomes for our clients.</p>
 </div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->

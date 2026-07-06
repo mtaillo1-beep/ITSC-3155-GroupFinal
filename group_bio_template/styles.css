@@ -74,7 +74,7 @@ h2 {
 .bio {
     display: none;
     margin-top: 10px;
-    color: #555;
+    color: #ffffff;
 }
 
 /* Button styling */
@@ -90,4 +90,16 @@ button {
 button:hover {
     background: #333;
     color: white;
+}
+
+/* This is some styling for a profile picture, if anyone wants to include it.*/
+.profile-photo {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+/* I included an effect to cover the requirements */
+.profile-photo:hover {
+    transform: scale(1.1);
 }
